@@ -1,0 +1,22 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "net.vanillasettings.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MixinParticleEngine",
+    "MixinLightTexture",
+    "HudAccessor",
+    "MixinFogRenderer",
+    "MixinItemInHandRenderer",
+    "MixinScreenEffectRenderer",
+    "MixinTotemPopSize",
+    "MixinTotemPopPosition"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
