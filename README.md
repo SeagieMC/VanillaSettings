@@ -80,11 +80,6 @@ The jar is written to `build/libs/`.
 
 - Armor HUD layout and its offhand / attack indicator behaviour follow
   [uku's Armor HUD](https://github.com/uku3lig/armor-hud).
-- The fullbright multiplier, fog and offset techniques follow
-  [BactroMod](https://github.com/Bactrosaurus/bactromod).
-- The totem-pop resize technique follows [Totem Tweaks](https://github.com/eleqz/totem-tweaks).
-- Particle blocking hooks the same method as
-  [ParticleCulling](https://github.com/Fix85/ParticleCulling).
 
 ## License
 
