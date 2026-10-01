@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillasettings",
+  "version": "${version}",
+  "name": "Vanilla Settings",
+  "description": "Single-button crystal-PvP visual preset: smooth fullbright, no fog, hard particle switch (explosions included), totem resize, render-distance presets, fire/shield offsets, armor HUD, and a settings screen in English, Russian and Mixed Russian.",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.vanillasettings.VanillaSettingsClient"
+    ]
+  },
+  "mixins": [
+    "vanillasettings.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "fabric-api": "*"
+  }
+}
